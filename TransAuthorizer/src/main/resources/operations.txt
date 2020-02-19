@@ -1,0 +1,11 @@
+{"account": {"active-card": true, "available-limit": 100}}
+{"account": {"active-card": false, "available-limit": 250}}
+{"transaction": {"merchant": "Burger King", "amount": 20, "time":"2019-02-13T10:00:00.000Z"}}
+{"transaction": {"merchant": "Habbib's", "amount": 90.55, "time": "2019-02-13T11:00:00.000Z"}}
+{"account": {"active-card": true, "available-limit": 310}}
+{"transaction": {"merchant": "Burger King", "amount": 20, "time":"2019-02-13T10:00:00.000Z"}}
+{"account": {"active-card": true, "available-limit": 100}}
+{"account": {"active-card": true, "available-limit": 250}}
+{"transaction": {"merchant": "Walmart", "amount": 20.78, "time":"2019-02-13T10:00:00.000Z"}}
+{"transaction": {"merchant": "Comex", "amount": 340.54, "time":"2019-02-13T10:11:00.000Z"}}
+{"transaction": {"merchant": "Sams", "amount": 50.98, "time":"2019-02-13T10:20:00.000Z"}}
