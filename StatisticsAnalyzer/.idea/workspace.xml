@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XuppVOFUklcnblLfPGfDeGnnNZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nsft.dev.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StatsManagerTest (2)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ns.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ns.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testPlayerAttributes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nsft.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nsft.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nsft.dev.test.PlayerTest" />
+      <option name="METHOD_NAME" value="testPlayerAttributes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsManagerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nsft.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nsft.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nsft.dev.test.StatsManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsManagerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ns.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ns.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.StatsManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nearsoft.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nearsoft.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nearsoft.dev.test.StatsManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StatsManagerTest" />
+      <item itemvalue="JUnit.PlayerTest.testPlayerAttributes (1)" />
+      <item itemvalue="JUnit.StatsManagerTest (1)" />
+      <item itemvalue="JUnit.PlayerTest (1)" />
+      <item itemvalue="JUnit.StatsManagerTest (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatsManagerTest (2)" />
+        <item itemvalue="JUnit.PlayerTest (1)" />
+        <item itemvalue="JUnit.StatsManagerTest (1)" />
+        <item itemvalue="JUnit.PlayerTest.testPlayerAttributes (1)" />
+        <item itemvalue="JUnit.StatsManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="" />
+      <created>1581793748515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581793748515</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="489" y="247" width="424" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582177748250">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state x="489" y="247" width="424" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/36.21.1330.747@36.21.1330.747" timestamp="1582177748250" />
+    <state width="1288" height="368" key="GridCell.Tab.0.bottom" timestamp="1582187313461">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state width="1288" height="368" key="GridCell.Tab.0.bottom/36.21.1330.747@36.21.1330.747" timestamp="1582187313461" />
+    <state width="1288" height="368" key="GridCell.Tab.0.center" timestamp="1582187313457">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state width="1288" height="368" key="GridCell.Tab.0.center/36.21.1330.747@36.21.1330.747" timestamp="1582187313457" />
+    <state width="1288" height="368" key="GridCell.Tab.0.left" timestamp="1582187313454">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state width="1288" height="368" key="GridCell.Tab.0.left/36.21.1330.747@36.21.1330.747" timestamp="1582187313454" />
+    <state width="1288" height="368" key="GridCell.Tab.0.right" timestamp="1582187313459">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state width="1288" height="368" key="GridCell.Tab.0.right/36.21.1330.747@36.21.1330.747" timestamp="1582187313459" />
+    <state x="210" y="21" key="SettingsEditor" timestamp="1582187107643">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state x="210" y="21" key="SettingsEditor/36.21.1330.747@36.21.1330.747" timestamp="1582187107643" />
+    <state x="36" y="21" width="791" height="747" key="find.popup" timestamp="1582179853585">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state x="36" y="21" width="791" height="747" key="find.popup/36.21.1330.747@36.21.1330.747" timestamp="1582179853585" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582178849786">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/36.21.1330.747@36.21.1330.747" timestamp="1582178849786" />
+    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582187054639">
+      <screen x="36" y="21" width="1330" height="747" />
+    </state>
+    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup/36.21.1330.747@36.21.1330.747" timestamp="1582187054639" />
+  </component>
+</project>
