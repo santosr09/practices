@@ -1,2 +1,5 @@
-*.impl
+*.iml
 target/
+.idea
+.settings
+.project

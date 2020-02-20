@@ -50,7 +50,8 @@ public class OperationReader {
 		List<Operation> operationsToProcess = new ArrayList<Operation>();
 		List<Operation> operationsResponse = new ArrayList<Operation>();
 
-		try (Stream<String> stream = Files.lines(pathFile)) {
+		//try (Stream<String> stream = Files.lines(pathFile)) {
+		Stream<String> stream = FileLoader.loadFile(fileName);
 
 			Iterator<String> iterator = stream.iterator();
 			int count = 0;
@@ -71,10 +72,8 @@ public class OperationReader {
 			}
 			outputOperations(operationsResponse);
 
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
+		
+		
 		list.forEach(System.out::println);
 
 		return customers;

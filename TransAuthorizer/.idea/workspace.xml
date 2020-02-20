@@ -30,6 +30,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../practices" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.AccountValidationTest (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -145,22 +150,22 @@
       <screen x="36" y="21" width="1330" height="747" />
     </state>
     <state x="517" y="303" key="Github.CreateGistDialog/36.21.1330.747@36.21.1330.747" timestamp="1582096037785" />
-    <state width="1288" height="195" key="GridCell.Tab.0.bottom" timestamp="1582096114117">
+    <state width="1288" height="195" key="GridCell.Tab.0.bottom" timestamp="1582173068615">
       <screen x="36" y="21" width="1330" height="747" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.bottom/36.21.1330.747@36.21.1330.747" timestamp="1582096114117" />
-    <state width="1288" height="195" key="GridCell.Tab.0.center" timestamp="1582096114116">
+    <state width="1288" height="195" key="GridCell.Tab.0.bottom/36.21.1330.747@36.21.1330.747" timestamp="1582173068615" />
+    <state width="1288" height="195" key="GridCell.Tab.0.center" timestamp="1582173068610">
       <screen x="36" y="21" width="1330" height="747" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.center/36.21.1330.747@36.21.1330.747" timestamp="1582096114116" />
-    <state width="1288" height="195" key="GridCell.Tab.0.left" timestamp="1582096114116">
+    <state width="1288" height="195" key="GridCell.Tab.0.center/36.21.1330.747@36.21.1330.747" timestamp="1582173068610" />
+    <state width="1288" height="195" key="GridCell.Tab.0.left" timestamp="1582173068608">
       <screen x="36" y="21" width="1330" height="747" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.left/36.21.1330.747@36.21.1330.747" timestamp="1582096114116" />
-    <state width="1288" height="195" key="GridCell.Tab.0.right" timestamp="1582096114117">
+    <state width="1288" height="195" key="GridCell.Tab.0.left/36.21.1330.747@36.21.1330.747" timestamp="1582173068608" />
+    <state width="1288" height="195" key="GridCell.Tab.0.right" timestamp="1582173068613">
       <screen x="36" y="21" width="1330" height="747" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.right/36.21.1330.747@36.21.1330.747" timestamp="1582096114117" />
+    <state width="1288" height="195" key="GridCell.Tab.0.right/36.21.1330.747@36.21.1330.747" timestamp="1582173068612" />
     <state x="210" y="21" key="SettingsEditor" timestamp="1581907070007">
       <screen x="36" y="21" width="1330" height="747" />
     </state>
