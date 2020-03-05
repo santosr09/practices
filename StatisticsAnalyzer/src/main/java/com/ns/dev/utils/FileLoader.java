@@ -25,13 +25,4 @@ public class FileLoader {
 				.toString();
 	}
 	
-	/**
-	 * Retrieve the Path for the specified file
-	 */
-	public static Function<String, Path> getFilePath = FileLoader::apply;
-	
-	private static Path apply(String filename) {
-		ClassLoader cl = FileLoader.class.getClassLoader();
-		return Paths.get(cl.getResource(filename).getPath());
-	}
 }

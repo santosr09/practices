@@ -1,5 +1,7 @@
 package com.ns.dev.stats.model;
 
+import java.util.Optional;
+
 public class Result extends ResultType {
 	
 	public Result(ResultParser resultParser){
@@ -7,6 +9,8 @@ public class Result extends ResultType {
 		this.local = resultParser.getLocal();
 		this.visitor = resultParser.getVisitor();
 		this.score = resultParser.getScore();
+		setGoals();
+		setWinner();
 	}
 	
 	@Override
@@ -17,13 +21,17 @@ public class Result extends ResultType {
 	}
 	
 	@Override
-	public String getWinner() {
-		return (localGoals > visitorGoals)? local : visitor ;
+	public Optional<String> getWinner() {
+		return winner;
 	}
 	
 	@Override
-	public String getLoser() {
-		return (localGoals < visitorGoals)? local : visitor ;
+	public void setWinner() {
+		if(localGoals == visitorGoals){
+			winner = Optional.of("NO WINNER");
+		}else{
+			winner = Optional.ofNullable((localGoals > visitorGoals) ? local : visitor);
+		}
 	}
 	
 	@Override
@@ -36,4 +44,16 @@ public class Result extends ResultType {
 		this.visitorGoals = visitorGoals;
 	}
 	
+	@Override
+	public String toString() {
+		return "Result{" +
+							 "date='" + date + '\'' +
+							 ", local='" + local + '\'' +
+							 ", visitor='" + visitor + '\'' +
+							 ", score='" + score + '\'' +
+							 ", localGoals=" + localGoals +
+							 ", visitorGoals=" + visitorGoals +
+							 ", winner='" + winner.get() + '\'' +
+							 '}';
+	}
 }

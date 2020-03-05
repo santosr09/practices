@@ -20,6 +20,7 @@ public class PlayerRepositoryTest {
         _connection = DBConnection.getConnection();
     }
  
+    
     public void testGetPlayers() throws Exception {
         PlayerRepository PlayerRepository = new PlayerRepository(_connection);
         List<Player> Players = PlayerRepository.getPlayers();

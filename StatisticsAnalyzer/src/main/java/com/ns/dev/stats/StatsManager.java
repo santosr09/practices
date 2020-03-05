@@ -10,23 +10,20 @@ public class StatsManager {
 	
 	private List<ResultType> statsInput;
 	private LoadFile loader;
-	private ResultAnalyzer resultAnalyzer;
+	private ResultAnalyzer resultsAnalyzer;
 	
 	public StatsManager(){
 		this.loader = new LoadFile();
-		this.resultAnalyzer = new ResultAnalyzer(statsInput);
+		this.resultsAnalyzer = new ResultAnalyzer(statsInput);
 	}
 	
 	public void loadStatsFromFile(String nameFile) {
 		statsInput = loader.loadXMLFile(FileLoader.getPathFile(nameFile));
-		resultAnalyzer.setResultList(statsInput);
+		resultsAnalyzer.initAnalyzer(statsInput);
 	}
 	
 	public String getTeamNameWithMostWon() {
-		return resultAnalyzer.getTeamNameWithMostWon();
+		return resultsAnalyzer.getTeamNameWithMostWon();
 	}
 	
-	public String getTeamNameWithMostLost() {
-		return resultAnalyzer.getTeamNameWithMostLost();
-	}
 }

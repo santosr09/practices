@@ -26,6 +26,7 @@ public class ResultListXML implements ResultListParser{
 		List<ResultType> resultList = new ArrayList<ResultType>();
 		for(ResultXML item : XMLResults){
 			resultList.add(item.getResultType());
+			//System.out.println("winner: "+item.getResultType().getWinner());
 		}
 		return resultList;
 	}
