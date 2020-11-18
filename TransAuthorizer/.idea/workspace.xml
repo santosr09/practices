@@ -1,31 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a111585d-7a62-427b-b4df-f8b1c9130818" name="Default" comment="" />
+    <list default="true" id="a111585d-7a62-427b-b4df-f8b1c9130818" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransAuthorizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TransAuthorizer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bnk/utils/OperationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnk/utils/OperationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bnk/validations/AccountValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bnk/validations/AccountValidationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="11" />
   </component>
   <component name="ProjectId" id="1Xupk4he8Se9ULsYYKsauhjalBf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StatisticsAnalyzer" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -112,18 +135,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,41 +150,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="46" key="#Project_Structure" timestamp="1581907087215">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1593156955376">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="301" y="46" key="#Project_Structure/36.21.1330.747@36.21.1330.747" timestamp="1581907087215" />
-    <state x="489" y="142" key="FileChooserDialogImpl" timestamp="1581906014231">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure/44.27.1322.741@44.27.1322.741" timestamp="1593156955376" />
+    <state x="412" y="67" width="575" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593156768928">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="489" y="142" key="FileChooserDialogImpl/36.21.1330.747@36.21.1330.747" timestamp="1581906014231" />
-    <state x="517" y="303" key="Github.CreateGistDialog" timestamp="1582096037785">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state x="412" y="67" width="575" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/44.27.1322.741@44.27.1322.741" timestamp="1593156768928" />
+    <state x="508" y="166" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593263979040">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="517" y="303" key="Github.CreateGistDialog/36.21.1330.747@36.21.1330.747" timestamp="1582096037785" />
-    <state width="1288" height="195" key="GridCell.Tab.0.bottom" timestamp="1582173068615">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state x="508" y="166" width="424" height="491" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1593263979040" />
+    <state width="1286" height="165" key="GridCell.Tab.0.bottom" timestamp="1601386854297">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.bottom/36.21.1330.747@36.21.1330.747" timestamp="1582173068615" />
-    <state width="1288" height="195" key="GridCell.Tab.0.center" timestamp="1582173068610">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state width="1286" height="165" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1601386854297" />
+    <state width="1286" height="165" key="GridCell.Tab.0.center" timestamp="1601386854297">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.center/36.21.1330.747@36.21.1330.747" timestamp="1582173068610" />
-    <state width="1288" height="195" key="GridCell.Tab.0.left" timestamp="1582173068608">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state width="1286" height="165" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1601386854297" />
+    <state width="1286" height="165" key="GridCell.Tab.0.left" timestamp="1601386854296">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.left/36.21.1330.747@36.21.1330.747" timestamp="1582173068608" />
-    <state width="1288" height="195" key="GridCell.Tab.0.right" timestamp="1582173068613">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state width="1286" height="165" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1601386854296" />
+    <state width="1286" height="165" key="GridCell.Tab.0.right" timestamp="1601386854297">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1288" height="195" key="GridCell.Tab.0.right/36.21.1330.747@36.21.1330.747" timestamp="1582173068612" />
-    <state x="210" y="21" key="SettingsEditor" timestamp="1581907070007">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state width="1286" height="165" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1601386854297" />
+    <state x="238" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1593156854438">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="210" y="21" key="SettingsEditor/36.21.1330.747@36.21.1330.747" timestamp="1581907070006" />
-    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582095006862">
-      <screen x="36" y="21" width="1330" height="747" />
+    <state x="238" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog/44.27.1322.741@44.27.1322.741" timestamp="1593156854438" />
+    <state x="44" y="27" width="1312" height="741" key="new project wizard" timestamp="1593264131798">
+      <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="364" y="89" width="672" height="678" key="search.everywhere.popup/36.21.1330.747@36.21.1330.747" timestamp="1582095006862" />
+    <state x="44" y="27" width="1312" height="741" key="new project wizard/44.27.1322.741@44.27.1322.741" timestamp="1593264131798" />
   </component>
 </project>

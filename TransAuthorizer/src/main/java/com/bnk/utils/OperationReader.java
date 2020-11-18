@@ -15,15 +15,14 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
 import com.bnk.model.Account;
 import com.bnk.model.Operation;
 import com.bnk.model.Transaction;
 import com.bnk.validations.OperationValidation;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class OperationReader {
 	
@@ -71,8 +70,6 @@ public class OperationReader {
 				System.out.println(item);
 			}
 			outputOperations(operationsResponse);
-
-		
 		
 		list.forEach(System.out::println);
 
