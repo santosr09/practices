@@ -3,20 +3,21 @@ package com.ns.dev.test;
 import com.ns.dev.stats.StatsManager;
 import com.ns.dev.utils.FileLoader;
 import com.ns.dev.utils.LoadFile;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class StatsManagerTest {
 	private Path resourceDirectory = Paths.get("src","test","resources");
 	private StatsManager _statsManager;
 	private FileLoader fileLoader;
 	
-	@Before
+	@BeforeAll
 	public void setUp(){
 		 _statsManager = new StatsManager();
 		 //_statsManager.loadStatsFromFile(PATH_RESOURCES + "england_premier_league_2000.xml");

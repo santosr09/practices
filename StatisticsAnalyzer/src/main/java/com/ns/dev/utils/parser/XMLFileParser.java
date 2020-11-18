@@ -2,10 +2,10 @@ package com.ns.dev.utils.parser;
 
 import com.ns.dev.stats.model.ResultListXML;
 import com.ns.dev.stats.model.ResultType;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Unmarshaller;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.util.List;
 

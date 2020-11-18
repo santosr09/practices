@@ -4,18 +4,18 @@ import com.ns.dev.Player;
 import com.ns.dev.PlayerRepository;
 import com.ns.dev.Team;
 import com.ns.dev.utils.DBConnection;
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeAll;
 
 import java.sql.Connection;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlayerRepositoryTest {
 
     private Connection _connection;
 
-    @Before
+    @BeforeAll
     public void setUp() throws Exception {
         _connection = DBConnection.getConnection();
     }
