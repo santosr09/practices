@@ -1,7 +1,7 @@
 package com.ns.dev.stats.model;
 
-import java.util.List;
+import java.util.stream.Stream;
 
 public interface ResultListParser {
-	List<ResultType> getResultList();
+	Stream<MatchParserXML> getResultList();
 }

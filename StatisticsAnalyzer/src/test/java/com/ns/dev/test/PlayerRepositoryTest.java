@@ -7,65 +7,43 @@ import com.ns.dev.utils.DBConnection;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.sql.Connection;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlayerRepositoryTest {
 
-    private Connection _connection;
+    /*private Connection _connection;
+    
+    List<Player> playersList;
 
     @BeforeAll
     public void setUp() throws Exception {
         _connection = DBConnection.getConnection();
+        playersList = new ArrayList<Player>();
+        Player p1 = new Player();
+        p1.setFirstName("John");
+        p1.setLastName("Doe");
+        p1.setUserName("john@nearsoft.com");
+        
+        Player p2 = new Player();
+        playersList.add(p1);
     }
  
     
     public void testGetPlayers() throws Exception {
         PlayerRepository PlayerRepository = new PlayerRepository(_connection);
-        List<Player> Players = PlayerRepository.getPlayers();
-        assertEquals(3, Players.size());
+        assertEquals(1, playersList.size());
 
-        Player john = Players.get(0);
+        Player john = playersList.get(0);
         assertEquals("john@nearsoft.com", john.getUserName());
         assertEquals("John", john.getFirstName());
         assertEquals("Doe", john.getLastName());
-        assertEquals(100, john.getTeamId());
+        //assertEquals(100, john.getTeamId());
+        
+    }*/
 
-        Player jane = Players.get(1);
-        assertEquals("jane@nearsoft.com", jane.getUserName());
-        assertEquals("Jane", jane.getFirstName());
-        assertEquals("Doe", jane.getLastName());
-        assertEquals(100, jane.getTeamId());
-
-        Player bob = Players.get(2);
-        assertEquals("bob@nearsoft.com", bob.getUserName());
-        assertEquals("Bob", bob.getFirstName());
-        assertEquals("Ross", bob.getLastName());
-    }
-
-    public void testGetPlayersByTeamId() throws Exception {
-        PlayerRepository PlayerRepository = new PlayerRepository(_connection);
-        List<Player> Players = PlayerRepository.getPlayersByTeamId(100);
-        assertEquals(2, Players.size());
-
-        Player john = Players.get(0);
-        assertEquals("john@nearsoft.com", john.getUserName());
-        assertEquals("John", john.getFirstName());
-        assertEquals("Doe", john.getLastName());
-        assertEquals(100, john.getTeamId());
-
-        Team softball = john.getTeam();
-        assertEquals(100, softball.getId());
-        assertEquals("Softball", softball.getName());
-
-        Player jane = Players.get(1);
-        assertEquals("jane@nearsoft.com", jane.getUserName());
-        assertEquals("Jane", jane.getFirstName());
-        assertEquals("Doe", jane.getLastName());
-        assertEquals(100, jane.getTeamId());
-
-        assertEquals(softball, jane.getTeam());
-    }
+   
 
 }

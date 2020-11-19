@@ -1,14 +1,16 @@
 package com.ns.dev.stats;
 
+import com.ns.dev.stats.model.MatchParserXML;
 import com.ns.dev.stats.model.ResultType;
 import com.ns.dev.utils.FileLoader;
 import com.ns.dev.utils.LoadFile;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 public class StatsManager {
 	
-	private List<ResultType> statsInput;
+	private Stream<MatchParserXML> statsInput;
 	private LoadFile loader;
 	private ResultAnalyzer resultsAnalyzer;
 	

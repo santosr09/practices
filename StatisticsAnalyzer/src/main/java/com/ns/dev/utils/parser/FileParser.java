@@ -1,10 +1,10 @@
 package com.ns.dev.utils.parser;
 
-import com.ns.dev.stats.model.ResultType;
+import com.ns.dev.stats.model.MatchParserXML;
 
-import java.util.List;
+import java.util.stream.Stream;
 
 public abstract class FileParser {
 	
-	public abstract List<ResultType> convertFileToResult(String fileName);
+	public abstract Stream<MatchParserXML> convertFileToResult(String fileName);
 }

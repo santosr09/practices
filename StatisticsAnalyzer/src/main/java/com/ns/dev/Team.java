@@ -1,22 +1,19 @@
 package com.ns.dev;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Team {
 	private int id=0;
 	private String name;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
+	
+	public Team(String name) {
 		this.name = name;
 	}
+	
+	public Team() {
+	}
+	
 }

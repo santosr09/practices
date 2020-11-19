@@ -4,11 +4,11 @@ import java.util.Optional;
 
 public class Result extends ResultType {
 	
-	public Result(ResultParser resultParser){
-		this.date = resultParser.getDate();
-		this.local = resultParser.getLocal();
-		this.visitor = resultParser.getVisitor();
-		this.score = resultParser.getScore();
+	public Result(MatchParser matchParser){
+		this.date = matchParser.getDate();
+		this.local = matchParser.getLocal();
+		this.visitor = matchParser.getVisitor();
+		this.score = matchParser.getScore();
 		setGoals();
 		setWinner();
 	}

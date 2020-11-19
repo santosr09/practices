@@ -1,12 +1,12 @@
 package com.ns.dev.utils;
 
+import com.ns.dev.stats.model.MatchParserXML;
 import com.ns.dev.utils.parser.AvailableParser;
 import com.ns.dev.utils.parser.FileParser;
 import com.ns.dev.utils.parser.ParserFactory;
-import com.ns.dev.stats.model.ResultType;
 
-import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class LoadFile {
 	
@@ -22,7 +22,7 @@ public class LoadFile {
 		//return lines.collect(Collectors.toList()).toString();
 	}
 	
-	public List<ResultType> loadXMLFile(String nameFile){
+	public Stream<MatchParserXML> loadXMLFile(String nameFile){
 		parser = parserFactory.getParser(AvailableParser.XML_PARSER);
 		return parser.convertFileToResult(nameFile);
 	}

@@ -1,1 +1,37 @@
-README.adoc
+= Statics Analyzer
+
+== Objective
+Proveer un listado de equipos clasificados de acuerdo a sus resultados
+
+Se requiere conocer por cada equipo, Cuantos partidos:
+* Ganó
+* Perdio
+* Empató
+
+No es requerido mostrar el total de goles anotados o recibidos, tal vez ser podría considerar como un feature improvement
+
+Cómo se va a almacenar el analisis por cada partido:
+Map<String >
+
+== Análisis de clases
+Match: DateTime, LocalTeam, VisitorTeam, VisitorGoals, LocalGoals
+
+Player: userName, firstName, lastName, Team
+
+Team: Id, Nombre
+
+Team Statistics: Team, TotalGanados, TotalPerdidos y TotalEmpatados
+
+// RankTable: List<TeamStatistics> or Map<int, TeamStatistics>
+
+Parser
+Lee cada linea, crea el Team
+
+StatsManager: Parser, List<TeamStatistics>
+
+Considerar a futuro llevar conteo de goles anotados y recibidos.
+
+MatchAnalyzer
+
+
+

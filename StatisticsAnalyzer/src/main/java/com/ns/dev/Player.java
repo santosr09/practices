@@ -1,10 +1,15 @@
 package com.ns.dev;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+@Getter
+@Setter
 public class Player implements Comparable{
 	
 	private String userName;
@@ -29,46 +34,6 @@ public class Player implements Comparable{
 	public int compareTo(Object obj) {
 		Player p = (obj instanceof Player) ? (Player) obj : new Player();
 		return this.getUserName().compareToIgnoreCase(p.getUserName());
-	}
-	
-	public String getUserName() {
-		return userName;
-	}
-	
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-	
-	public String getLastName() {
-		return lastName;
-	}
-	
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-	
-	public String getFirstName() {
-		return firstName;
-	}
-	
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-	
-	public int getTeamId() {
-		return team.getId();
-	}
-	
-	public void setTeamId(int teamId) {
-		this.team.setId(teamId);
-	}
-
-	public Team getTeam() {
-		return team;
-	}
-
-	public void setTeam(Team team) {
-		this.team = team;
 	}
 	
 }

@@ -1,6 +1,6 @@
 package com.ns.dev.stats.model;
 
-public interface ResultParser{
+public interface MatchParser {
 	
 	String getDate();
 	String getLocal();

@@ -5,34 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransAuthorizer/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/XMLResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParserXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/LoadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/LoadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/TransAuthorizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/TransAuthorizer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/src/main/java/com/bnk/utils/OperationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/src/main/java/com/bnk/utils/OperationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TransAuthorizer/src/test/java/com/bnk/validations/AccountValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TransAuthorizer/src/test/java/com/bnk/validations/AccountValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -235,13 +226,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="513" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605763441210">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="513" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1605763441210" />
+    <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605764281590">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/44.27.1322.741@44.27.1322.741" timestamp="1605764281590" />
     <state x="452" y="143" width="495" height="520" key="FileChooserDialogImpl" timestamp="1605677420231">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="452" y="143" width="495" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1605677420231" />
-    <state x="194" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605677518051">
+    <state width="1276" height="258" key="GridCell.Tab.0.bottom" timestamp="1605767255813">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="194" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1605677518051" />
+    <state width="1276" height="258" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1605767255813" />
+    <state width="1276" height="258" key="GridCell.Tab.0.center" timestamp="1605767255812">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="258" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
+    <state width="1276" height="258" key="GridCell.Tab.0.left" timestamp="1605767255812">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="258" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
+    <state width="1276" height="258" key="GridCell.Tab.0.right" timestamp="1605767255812">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="258" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1605766558141">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
+    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1605766558141">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
+    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1605766558140">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1605766558140" />
+    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1605766558141">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605761835587">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1605761835587" />
   </component>
 </project>

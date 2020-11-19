@@ -4,6 +4,7 @@ import com.ns.dev.stats.StatsManager;
 import com.ns.dev.utils.FileLoader;
 import com.ns.dev.utils.LoadFile;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Path;
@@ -14,12 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StatsManagerTest {
 	private Path resourceDirectory = Paths.get("src","test","resources");
-	private StatsManager _statsManager;
+	private StatsManager _statsManager = new StatsManager();
 	private FileLoader fileLoader;
 	
-	@BeforeAll
+	@BeforeEach
 	public void setUp(){
-		 _statsManager = new StatsManager();
 		 //_statsManager.loadStatsFromFile(PATH_RESOURCES + "england_premier_league_2000.xml");
 		 _statsManager.loadStatsFromFile( "england_premier_league_2000.xml");
 	 }

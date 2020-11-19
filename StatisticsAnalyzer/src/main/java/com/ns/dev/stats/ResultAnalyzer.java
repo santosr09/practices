@@ -1,5 +1,6 @@
 package com.ns.dev.stats;
 
+import com.ns.dev.stats.model.MatchParserXML;
 import com.ns.dev.stats.model.ResultType;
 
 import java.util.*;
@@ -7,6 +8,7 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.util.Map.Entry.comparingByValue;
 import static java.util.stream.Collectors.toMap;
@@ -14,11 +16,11 @@ import static java.util.stream.Collectors.toMap;
 
 public class ResultAnalyzer {
 	
-	private List<ResultType> resultList;
+	private Stream<MatchParserXML> resultList;
 	private String mostWinner;
 	private Map<String, Integer> rankingTable;
 	
-	public ResultAnalyzer(List<ResultType> resultList){
+	public ResultAnalyzer(Stream<MatchParserXML> resultList){
 		this.resultList = resultList;
 		this.rankingTable = new HashMap<String, Integer>();
 	}
@@ -28,7 +30,7 @@ public class ResultAnalyzer {
 	}
 	
 	private void populateRankingTable(){
-		resultList.stream()
+		resultList
 				.filter(result -> !result.getWinner().get().equals("NO WINNER"))
 				.map(ResultType::getWinner)
 				.forEach(sortTeams);
@@ -47,7 +49,7 @@ public class ResultAnalyzer {
 				.max(Comparator.comparing(Map.Entry::getValue)).get().getKey();
 	}
 	
-	public void initAnalyzer(List<ResultType> resultList) {
+	public void initAnalyzer(Stream<MatchParserXML> resultList) {
 		this.resultList = resultList;
 		this.populateRankingTable();
 		this.setMostWinner();
