@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/XMLResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParserXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/LoadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/LoadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +45,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -226,6 +208,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1605857075311">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure/44.27.1322.741@44.27.1322.741" timestamp="1605857075311" />
     <state x="513" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605763441210">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
@@ -234,10 +220,14 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/44.27.1322.741@44.27.1322.741" timestamp="1605764281590" />
-    <state x="452" y="143" width="495" height="520" key="FileChooserDialogImpl" timestamp="1605677420231">
+    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1605857070209">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="452" y="143" width="495" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1605677420231" />
+    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/44.27.1322.741@44.27.1322.741" timestamp="1605857070209" />
+    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl" timestamp="1605857065414">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1605857065414" />
     <state width="1276" height="258" key="GridCell.Tab.0.bottom" timestamp="1605767255813">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
@@ -270,9 +260,9 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state width="1276" height="215" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
-    <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605761835587">
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605856933818">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="83" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1605761835587" />
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1605856933818" />
   </component>
 </project>
