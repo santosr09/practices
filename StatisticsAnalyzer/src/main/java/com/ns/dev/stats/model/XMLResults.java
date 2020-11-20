@@ -16,9 +16,9 @@ import java.util.stream.Stream;
 public class XMLResults implements ResultListParser{
 	
 	@XmlElement(name = "matchResult")
-	private Stream<MatchParserXML> XMLResultsList;
+	private Stream<MatchParser> XMLResultsList;
 	
-	public Stream<MatchParserXML> getResultList(){
+	public Stream<MatchParser> getResultList(){
 		return XMLResultsList;
 	}
 }

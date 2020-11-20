@@ -1,6 +1,6 @@
 package com.ns.dev.utils.parser;
 
-import com.ns.dev.stats.model.MatchParserXML;
+import com.ns.dev.stats.model.MatchParser;
 import com.ns.dev.stats.model.XMLResults;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
@@ -11,8 +11,8 @@ import java.util.stream.Stream;
 
 public class XMLFileParser extends FileParser{
 	
-	public Stream<MatchParserXML> convertFileToResult(String fileName){
-		File xmlFile = new File(fileName);
+	public Stream<MatchParser> getStreamFromFile(String fileName){
+		File xmlFile = new File(getFilePathAndName(fileName));
 		XMLResults objXMLResults = null;
 		JAXBContext jaxbContext;
 		try
@@ -26,6 +26,12 @@ public class XMLFileParser extends FileParser{
 			e.printStackTrace();
 		}
 		return objXMLResults.getResultList();
+	}
+	
+	private String getFilePathAndName(String fileName) {
+		return getClass().getClassLoader()
+							 .getResource(fileName)
+							 .getPath();
 	}
 	
 }

@@ -2,12 +2,14 @@ package com.ns.dev.utils.parser;
 
 public class ParserFactory {
 	
-	public FileParser getParser(AvailableParser parser){
+	public FileParser getParser(FileTypes parser){
 		switch (parser){
-			case XML_PARSER:
+			case TXT_FILE:
+				return new TXTFileParser();
+			case XML_FILE:
 				return new XMLFileParser();
-				default:
-					return null;
+			default:
+				return null;
 		}
 	}
 }

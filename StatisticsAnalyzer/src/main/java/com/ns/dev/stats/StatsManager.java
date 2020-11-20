@@ -1,26 +1,24 @@
 package com.ns.dev.stats;
 
-import com.ns.dev.stats.model.MatchParserXML;
-import com.ns.dev.stats.model.ResultType;
+import com.ns.dev.stats.model.MatchParser;
 import com.ns.dev.utils.FileLoader;
-import com.ns.dev.utils.LoadFile;
+import com.ns.dev.utils.parser.FileTypes;
 
-import java.util.List;
 import java.util.stream.Stream;
 
 public class StatsManager {
 	
-	private Stream<MatchParserXML> statsInput;
-	private LoadFile loader;
+	private Stream<MatchParser> statsInput;
 	private ResultAnalyzer resultsAnalyzer;
+	private FileLoader fileLoader;
 	
 	public StatsManager(){
-		this.loader = new LoadFile();
+		fileLoader = new FileLoader();
 		this.resultsAnalyzer = new ResultAnalyzer(statsInput);
 	}
 	
-	public void loadStatsFromFile(String nameFile) {
-		statsInput = loader.loadXMLFile(FileLoader.getPathFile(nameFile));
+	public void loadStatsFromFile(String nameFile, FileTypes fileType) {
+		statsInput = fileLoader.loadFile(nameFile, fileType);
 		resultsAnalyzer.initAnalyzer(statsInput);
 	}
 	
