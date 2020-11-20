@@ -31,6 +31,7 @@ public class ResultAnalyzer {
 	
 	private void populateRankingTable(){
 		resultList
+				.flatMap(MatchParserXML::get)
 				.filter(result -> !result.getWinner().get().equals("NO WINNER"))
 				.map(ResultType::getWinner)
 				.forEach(sortTeams);
