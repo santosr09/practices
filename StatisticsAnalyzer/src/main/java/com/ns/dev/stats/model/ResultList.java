@@ -17,6 +17,6 @@ public class ResultList {
 	}
 	
 	public void populateList(List<ResultType> results){
-		resultList = resultListParser.getResultList();
+		//resultList = resultListParser.getResultList();
 	}
 }

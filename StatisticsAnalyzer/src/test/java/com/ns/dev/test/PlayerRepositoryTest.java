@@ -1,17 +1,5 @@
 package com.ns.dev.test;
 
-import com.ns.dev.Player;
-import com.ns.dev.PlayerRepository;
-import com.ns.dev.Team;
-import com.ns.dev.utils.DBConnection;
-import org.junit.jupiter.api.BeforeAll;
-
-import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class PlayerRepositoryTest {
 
     /*private Connection _connection;

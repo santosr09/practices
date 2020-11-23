@@ -1,6 +1,5 @@
 package com.ns.dev.stats;
 
-import com.ns.dev.stats.model.MatchParser;
 import com.ns.dev.utils.FileLoader;
 import com.ns.dev.utils.parser.FileTypes;
 
@@ -8,7 +7,7 @@ import java.util.stream.Stream;
 
 public class StatsManager {
 	
-	private Stream<MatchParser> statsInput;
+	private Stream statsInput;
 	private ResultAnalyzer resultsAnalyzer;
 	private FileLoader fileLoader;
 	

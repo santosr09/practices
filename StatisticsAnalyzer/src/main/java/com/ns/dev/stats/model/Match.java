@@ -1,6 +1,7 @@
 package com.ns.dev.stats.model;
 
 import com.ns.dev.Team;
+import com.ns.dev.utils.parser.MatchParser;
 import lombok.Getter;
 import lombok.Setter;
 

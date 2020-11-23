@@ -1,7 +1,5 @@
 package com.ns.dev.utils.parser;
 
-import com.ns.dev.stats.model.MatchParser;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;

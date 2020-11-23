@@ -1,7 +1,6 @@
-package com.ns.dev.utils.parser;
+package com.ns.dev.utils.parser.xml;
 
-import com.ns.dev.stats.model.MatchParser;
-import com.ns.dev.stats.model.XMLResults;
+import com.ns.dev.utils.parser.FileParser;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Unmarshaller;
@@ -9,9 +8,9 @@ import jakarta.xml.bind.Unmarshaller;
 import java.io.File;
 import java.util.stream.Stream;
 
-public class XMLFileParser extends FileParser{
+public class XMLFileParser extends FileParser {
 	
-	public Stream<MatchParser> getStreamFromFile(String fileName){
+	public Stream<MatchParserXML> getStreamFromFile(String fileName){
 		File xmlFile = new File(getFilePathAndName(fileName));
 		XMLResults objXMLResults = null;
 		JAXBContext jaxbContext;
@@ -25,7 +24,7 @@ public class XMLFileParser extends FileParser{
 		{
 			e.printStackTrace();
 		}
-		return objXMLResults.getResultList();
+		return objXMLResults.getResultsList();
 	}
 	
 	private String getFilePathAndName(String fileName) {

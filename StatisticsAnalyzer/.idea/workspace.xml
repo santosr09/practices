@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/MatchParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/LoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParserXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/MatchParserXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/XMLResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/FileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/ParserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/ParserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/TXTFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/TXTFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +68,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ns.dev.utils.parser.xml" />
+      <recent name="com.ns.dev.utils.parser" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nsft.dev.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatsManagerTest (2)">
+  <component name="RunManager" selected="JUnit.ResultAnalyzerTest.matchProcessorTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -70,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StatisticsAnalyzer" />
       <extension name="coverage">
         <pattern>
@@ -79,41 +106,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ns.dev.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.PlayerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.LoaderTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.testPlayerAttributes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResultAnalyzerTest.initAnalyzer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StatisticsAnalyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nsft.dev.test.*" />
+          <option name="PATTERN" value="com.ns.dev.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.nsft.dev.test" />
-      <option name="MAIN_CLASS_NAME" value="com.nsft.dev.test.PlayerTest" />
-      <option name="METHOD_NAME" value="testPlayerAttributes" />
+      <option name="PACKAGE_NAME" value="com.ns.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.ResultAnalyzerTest" />
+      <option name="METHOD_NAME" value="initAnalyzer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsManagerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResultAnalyzerTest.matchProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StatisticsAnalyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nsft.dev.test.*" />
+          <option name="PATTERN" value="com.ns.dev.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.nsft.dev.test" />
-      <option name="MAIN_CLASS_NAME" value="com.nsft.dev.test.StatsManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ns.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.ResultAnalyzerTest" />
+      <option name="METHOD_NAME" value="matchProcessorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,22 +157,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ns.dev.test" />
       <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.StatsManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatsManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StatisticsAnalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nearsoft.dev.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nearsoft.dev.test" />
-      <option name="MAIN_CLASS_NAME" value="com.nearsoft.dev.test.StatsManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -176,20 +188,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Specifications" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="StatisticsAnalyzer" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.StatsManagerTest" />
-      <item itemvalue="JUnit.PlayerTest.testPlayerAttributes (1)" />
-      <item itemvalue="JUnit.StatsManagerTest (1)" />
-      <item itemvalue="JUnit.PlayerTest (1)" />
+      <item itemvalue="Gauge Execution.Specifications" />
       <item itemvalue="JUnit.StatsManagerTest (2)" />
+      <item itemvalue="JUnit.LoaderTest" />
+      <item itemvalue="JUnit.ResultAnalyzerTest.initAnalyzer" />
+      <item itemvalue="JUnit.ResultAnalyzerTest.matchProcessorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResultAnalyzerTest.matchProcessorTest" />
+        <item itemvalue="JUnit.ResultAnalyzerTest.initAnalyzer" />
+        <item itemvalue="JUnit.LoaderTest" />
+        <item itemvalue="Gauge Execution.Specifications" />
         <item itemvalue="JUnit.StatsManagerTest (2)" />
-        <item itemvalue="JUnit.PlayerTest (1)" />
-        <item itemvalue="JUnit.StatsManagerTest (1)" />
-        <item itemvalue="JUnit.PlayerTest.testPlayerAttributes (1)" />
-        <item itemvalue="JUnit.StatsManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,14 +235,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="188" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1605857427433">
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1606059396799">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="188" y="27" width="1024" height="741" key="#Project_Structure/44.27.1322.741@44.27.1322.741" timestamp="1605857427433" />
-    <state x="513" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605864581944">
+    <state x="188" y="27" width="1024" height="741" key="#Project_Structure/44.27.1322.741@44.27.1322.741" timestamp="1606059396799" />
+    <state x="438" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606060121319">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="513" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1605864581944" />
+    <state x="438" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/44.27.1322.741@44.27.1322.741" timestamp="1606060121319" />
+    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606099133924">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1606099133924" />
+    <state x="438" y="179" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606074575331">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="438" y="179" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/44.27.1322.741@44.27.1322.741" timestamp="1606074575331" />
+    <state x="412" y="67" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606059323278">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="412" y="67" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/44.27.1322.741@44.27.1322.741" timestamp="1606059323278" />
+    <state x="458" y="265" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606074577255">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="458" y="265" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/44.27.1322.741@44.27.1322.741" timestamp="1606074577255" />
     <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605764281590">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
@@ -224,49 +267,76 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/44.27.1322.741@44.27.1322.741" timestamp="1605860945807" />
-    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1605857070209">
+    <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1606062941343">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/44.27.1322.741@44.27.1322.741" timestamp="1605857070209" />
-    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl" timestamp="1606056353727">
+    <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/44.27.1322.741@44.27.1322.741" timestamp="1606062941343" />
+    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1606059252506">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1606056353727" />
-    <state width="1276" height="258" key="GridCell.Tab.0.bottom" timestamp="1605767255813">
+    <state x="433" y="155" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/44.27.1322.741@44.27.1322.741" timestamp="1606059252506" />
+    <state x="144" y="127" width="1122" height="541" maximized="true" key="DiffContextDialog" timestamp="1606058409515">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="258" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1605767255813" />
-    <state width="1276" height="258" key="GridCell.Tab.0.center" timestamp="1605767255812">
+    <state x="144" y="127" width="1122" height="541" maximized="true" key="DiffContextDialog/44.27.1322.741@44.27.1322.741" timestamp="1606058409515" />
+    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl" timestamp="1606059277653">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="258" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
-    <state width="1276" height="258" key="GridCell.Tab.0.left" timestamp="1605767255812">
+    <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1606059277653" />
+    <state width="1276" height="248" key="GridCell.Tab.0.bottom" timestamp="1606101046888">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="258" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
-    <state width="1276" height="258" key="GridCell.Tab.0.right" timestamp="1605767255812">
+    <state width="1276" height="248" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
+    <state width="1276" height="248" key="GridCell.Tab.0.center" timestamp="1606101046888">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="258" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1605767255812" />
-    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1605766558141">
+    <state width="1276" height="248" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
+    <state width="1276" height="248" key="GridCell.Tab.0.left" timestamp="1606101046888">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
-    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1605766558141">
+    <state width="1276" height="248" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
+    <state width="1276" height="248" key="GridCell.Tab.0.right" timestamp="1606101046888">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
-    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1605766558140">
+    <state width="1276" height="248" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
+    <state width="1276" height="248" key="GridCell.Tab.1.bottom" timestamp="1606101048175">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1605766558140" />
-    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1605766558141">
+    <state width="1276" height="248" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
+    <state width="1276" height="248" key="GridCell.Tab.1.center" timestamp="1606101048175">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1605766558141" />
-    <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606056441160">
+    <state width="1276" height="248" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
+    <state width="1276" height="248" key="GridCell.Tab.1.left" timestamp="1606101048175">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="83" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1606056441160" />
+    <state width="1276" height="248" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
+    <state width="1276" height="248" key="GridCell.Tab.1.right" timestamp="1606101048175">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="248" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606059212139">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="83" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1606059212139" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606098439676">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/44.27.1322.741@44.27.1322.741" timestamp="1606098439676" />
+    <state x="206" y="27" width="988" height="741" key="new project wizard" timestamp="1606059342549">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="206" y="27" width="988" height="741" key="new project wizard/44.27.1322.741@44.27.1322.741" timestamp="1606059342549" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

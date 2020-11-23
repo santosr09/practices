@@ -1,15 +1,5 @@
 package com.ns.dev.test;
 
-import com.ns.dev.Team;
-import com.ns.dev.Player;
-import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-
 public class PlayerTest {
 
 	/*@Test

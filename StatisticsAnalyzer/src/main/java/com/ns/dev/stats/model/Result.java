@@ -1,5 +1,7 @@
 package com.ns.dev.stats.model;
 
+import com.ns.dev.utils.parser.MatchParser;
+
 import java.util.Optional;
 
 public class Result extends ResultType {
