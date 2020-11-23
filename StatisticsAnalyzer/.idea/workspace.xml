@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/MatchParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/LoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/MatchParserXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/MatchParserXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/XMLResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/FileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/ParserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/ParserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/TXTFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/TXTFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/XMLFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,10 +222,10 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="438" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/44.27.1322.741@44.27.1322.741" timestamp="1606060121319" />
-    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606099133924">
+    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606141335198">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1606099133924" />
+    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1606141335198" />
     <state x="438" y="179" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606074575331">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
@@ -283,38 +262,38 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1606059277653" />
-    <state width="1276" height="248" key="GridCell.Tab.0.bottom" timestamp="1606101046888">
+    <state width="1276" height="262" key="GridCell.Tab.0.bottom" timestamp="1606141574680">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
-    <state width="1276" height="248" key="GridCell.Tab.0.center" timestamp="1606101046888">
+    <state width="1276" height="262" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
+    <state width="1276" height="262" key="GridCell.Tab.0.center" timestamp="1606141574680">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
-    <state width="1276" height="248" key="GridCell.Tab.0.left" timestamp="1606101046888">
+    <state width="1276" height="262" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
+    <state width="1276" height="262" key="GridCell.Tab.0.left" timestamp="1606141574680">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
-    <state width="1276" height="248" key="GridCell.Tab.0.right" timestamp="1606101046888">
+    <state width="1276" height="262" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
+    <state width="1276" height="262" key="GridCell.Tab.0.right" timestamp="1606141574680">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1606101046888" />
-    <state width="1276" height="248" key="GridCell.Tab.1.bottom" timestamp="1606101048175">
+    <state width="1276" height="262" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
+    <state width="1276" height="248" key="GridCell.Tab.1.bottom" timestamp="1606101325777">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
-    <state width="1276" height="248" key="GridCell.Tab.1.center" timestamp="1606101048175">
+    <state width="1276" height="248" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606101325777" />
+    <state width="1276" height="248" key="GridCell.Tab.1.center" timestamp="1606101325777">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
-    <state width="1276" height="248" key="GridCell.Tab.1.left" timestamp="1606101048175">
+    <state width="1276" height="248" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1606101325777" />
+    <state width="1276" height="248" key="GridCell.Tab.1.left" timestamp="1606101325776">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
-    <state width="1276" height="248" key="GridCell.Tab.1.right" timestamp="1606101048175">
+    <state width="1276" height="248" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1606101325776" />
+    <state width="1276" height="248" key="GridCell.Tab.1.right" timestamp="1606101325777">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="248" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1606101048175" />
+    <state width="1276" height="248" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1606101325777" />
     <state x="83" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606059212139">
       <screen x="44" y="27" width="1322" height="741" />
     </state>

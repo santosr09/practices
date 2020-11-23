@@ -54,7 +54,15 @@ public class ResultAnalyzer {
 	public void matchProcessor(Stream<? extends MatchParser> streamMatchs){
 		teamStatistics = new ArrayList<TeamStatistics>();
 		streamMatchs.forEach(setGoals);
+		Optional<TeamStatistics> mostWinner = teamStatistics.stream().max(Comparator.comparing(TeamStatistics::getTotalWon));
+		Optional<TeamStatistics> mostLoser = teamStatistics.stream().max(Comparator.comparing(TeamStatistics::getTotalLost));
+		System.out.println("Most Winner: " + mostWinner.get());
+		System.out.println("Most Loser: " + mostLoser.get());
+		teamStatistics.stream().sorted(Comparator.comparing(TeamStatistics::getTotalWon).reversed()).forEach(System.out::println);
+		
 	}
+	
+	
 	
 	public Consumer<MatchParser> setGoals =(match -> {
 		int index = match.getScore().indexOf('-');

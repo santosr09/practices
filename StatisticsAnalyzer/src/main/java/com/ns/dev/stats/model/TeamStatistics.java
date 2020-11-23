@@ -16,10 +16,6 @@ public class TeamStatistics {
 	private int totalLost;
 	private int totalDrawn;
 	
-	public TeamStatistics(){
-	
-	}
-	
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
@@ -31,5 +27,15 @@ public class TeamStatistics {
 	@Override
 	public int hashCode() {
 		return Objects.hash(team.getName());
+	}
+	
+	@Override
+	public String toString() {
+		return "TeamStatistics{" +
+							 "team=" + team +
+							 ", totalWon=" + totalWon +
+							 ", totalLost=" + totalLost +
+							 ", totalDrawn=" + totalDrawn +
+							 '}';
 	}
 }
