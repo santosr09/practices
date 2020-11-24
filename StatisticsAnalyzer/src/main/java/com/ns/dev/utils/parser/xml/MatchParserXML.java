@@ -1,7 +1,5 @@
 package com.ns.dev.utils.parser.xml;
 
-import com.ns.dev.stats.model.Result;
-import com.ns.dev.stats.model.ResultType;
 import com.ns.dev.utils.parser.MatchParser;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
@@ -20,11 +18,6 @@ public class MatchParserXML extends MatchParser {
 	private String local;
 	private String visitor;
 	private String score;
-	
-	public ResultType getResultType(){
-		ResultType resultType = new Result(this);
-		return resultType;
-	}
 	
 	@Override
 	public String toString() {

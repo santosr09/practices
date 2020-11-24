@@ -1,6 +1,5 @@
 package com.ns.dev.utils.parser.xml;
 
-import com.ns.dev.stats.model.ResultListParser;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -15,7 +14,7 @@ import java.util.stream.Stream;
 @Setter
 @XmlRootElement(name = "XMLResults")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class XMLResults implements ResultListParser {
+public class XMLResults {
 	
 	@XmlElement(name = "matchResult")
 	private List<MatchParserXML> XMLResultsList;

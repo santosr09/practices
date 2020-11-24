@@ -1,28 +1,34 @@
 package com.ns.dev.stats;
 
+import com.ns.dev.stats.model.TeamStatistics;
 import com.ns.dev.utils.FileLoader;
 import com.ns.dev.utils.parser.FileTypes;
+import com.ns.dev.utils.parser.MatchParser;
 
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class StatsManager {
 	
-	private Stream statsInput;
+	private Stream<? extends MatchParser>  statsInput;
 	private ResultAnalyzer resultsAnalyzer;
 	private FileLoader fileLoader;
 	
 	public StatsManager(){
 		fileLoader = new FileLoader();
-		this.resultsAnalyzer = new ResultAnalyzer(statsInput);
 	}
 	
 	public void loadStatsFromFile(String nameFile, FileTypes fileType) {
 		statsInput = fileLoader.loadFile(nameFile, fileType);
-		resultsAnalyzer.initAnalyzer(statsInput);
+		this.resultsAnalyzer = new ResultAnalyzer(statsInput);
 	}
 	
-	public String getTeamNameWithMostWon() {
-		return resultsAnalyzer.getTeamNameWithMostWon();
+	public Optional<TeamStatistics> getMostWinner() {
+		return resultsAnalyzer.getMostWinnerTeam();
+	}
+	
+	public Optional<TeamStatistics> getMostLoser() {
+		return resultsAnalyzer.getMostLoserTeam();
 	}
 	
 }

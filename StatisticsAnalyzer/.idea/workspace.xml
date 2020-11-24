@@ -7,7 +7,17 @@
     <list default="true" id="194972e2-0770-4eca-b2ce-a13412039e7f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/ResultAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/StatsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultListParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/ResultType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/stats/model/TeamStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/MatchParserXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/MatchParserXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ns/dev/utils/parser/xml/XMLResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ns/dev/test/StatsManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +73,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResultAnalyzerTest.matchProcessorTest">
+  <component name="RunManager" selected="JUnit.StatsManagerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -86,6 +96,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ns.dev.test" />
       <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.LoaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StatisticsAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ns.dev.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ns.dev.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ns.dev.test.ResultAnalyzerTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -126,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsManagerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StatisticsAnalyzer" />
       <extension name="coverage">
         <pattern>
@@ -167,35 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Specifications" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="StatisticsAnalyzer" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Gauge Execution.Specifications" />
-      <item itemvalue="JUnit.StatsManagerTest (2)" />
       <item itemvalue="JUnit.LoaderTest" />
       <item itemvalue="JUnit.ResultAnalyzerTest.initAnalyzer" />
       <item itemvalue="JUnit.ResultAnalyzerTest.matchProcessorTest" />
+      <item itemvalue="JUnit.ResultAnalyzerTest" />
+      <item itemvalue="JUnit.StatsManagerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsManagerTest" />
+        <item itemvalue="JUnit.ResultAnalyzerTest" />
+        <item itemvalue="JUnit.LoaderTest" />
         <item itemvalue="JUnit.ResultAnalyzerTest.matchProcessorTest" />
         <item itemvalue="JUnit.ResultAnalyzerTest.initAnalyzer" />
-        <item itemvalue="JUnit.LoaderTest" />
-        <item itemvalue="Gauge Execution.Specifications" />
-        <item itemvalue="JUnit.StatsManagerTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,9 +233,10 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="438" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/44.27.1322.741@44.27.1322.741" timestamp="1606060121319" />
-    <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606141335198">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state x="515" y="428" width="374" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1606192825796">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
+    <state x="515" y="428" width="374" height="599" key="#com.intellij.ide.util.MemberChooser/0.339.3286.741@0.339.3286.741" timestamp="1606192825796" />
     <state x="513" y="116" width="565" height="569" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1606141335198" />
     <state x="438" y="179" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606074575331">
       <screen x="44" y="27" width="1322" height="741" />
@@ -238,9 +250,10 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="458" y="265" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/44.27.1322.741@44.27.1322.741" timestamp="1606074577255" />
-    <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605764281590">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state x="0" y="332" width="797" height="748" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606192939167">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
+    <state x="0" y="332" width="797" height="748" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.339.3286.741@0.339.3286.741" timestamp="1606192939167" />
     <state x="44" y="27" width="636" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/44.27.1322.741@44.27.1322.741" timestamp="1605764281590" />
     <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605860945807">
       <screen x="44" y="27" width="1322" height="741" />
@@ -262,22 +275,26 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="452" y="143" width="735" height="520" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1606059277653" />
-    <state width="1276" height="262" key="GridCell.Tab.0.bottom" timestamp="1606141574680">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state width="1874" height="423" key="GridCell.Tab.0.bottom" timestamp="1606194309224">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
-    <state width="1276" height="262" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
-    <state width="1276" height="262" key="GridCell.Tab.0.center" timestamp="1606141574680">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state width="1874" height="423" key="GridCell.Tab.0.bottom/0.339.3286.741@0.339.3286.741" timestamp="1606194309224" />
+    <state width="1276" height="262" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1606141914598" />
+    <state width="1874" height="423" key="GridCell.Tab.0.center" timestamp="1606194309223">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
-    <state width="1276" height="262" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
-    <state width="1276" height="262" key="GridCell.Tab.0.left" timestamp="1606141574680">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state width="1874" height="423" key="GridCell.Tab.0.center/0.339.3286.741@0.339.3286.741" timestamp="1606194309223" />
+    <state width="1276" height="262" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1606141914595" />
+    <state width="1874" height="423" key="GridCell.Tab.0.left" timestamp="1606194309223">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
-    <state width="1276" height="262" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
-    <state width="1276" height="262" key="GridCell.Tab.0.right" timestamp="1606141574680">
-      <screen x="44" y="27" width="1322" height="741" />
+    <state width="1874" height="423" key="GridCell.Tab.0.left/0.339.3286.741@0.339.3286.741" timestamp="1606194309223" />
+    <state width="1276" height="262" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1606141914593" />
+    <state width="1874" height="423" key="GridCell.Tab.0.right" timestamp="1606194309224">
+      <screen x="0" y="339" width="3286" height="741" />
     </state>
-    <state width="1276" height="262" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1606141574680" />
+    <state width="1874" height="423" key="GridCell.Tab.0.right/0.339.3286.741@0.339.3286.741" timestamp="1606194309224" />
+    <state width="1276" height="262" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1606141914597" />
     <state width="1276" height="248" key="GridCell.Tab.1.bottom" timestamp="1606101325777">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
@@ -306,16 +323,5 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="206" y="27" width="988" height="741" key="new project wizard/44.27.1322.741@44.27.1322.741" timestamp="1606059342549" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ns/dev/test/ResultAnalyzerTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

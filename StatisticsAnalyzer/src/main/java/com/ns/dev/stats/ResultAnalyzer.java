@@ -6,63 +6,32 @@ import com.ns.dev.utils.parser.MatchParser;
 
 import java.util.*;
 import java.util.function.Consumer;
-import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ResultAnalyzer {
 	
-	private Stream resultList;
-	private String mostWinner;
+	private Stream<? extends MatchParser> resultList;
+	private Optional<TeamStatistics> mostWinnerTeam;
+	private Optional<TeamStatistics> mostLoserTeam;
+	private List<TeamStatistics> rankingOrderedList;
+	private List<TeamStatistics> teamStatisticsList;
 	
-	public List<TeamStatistics> getTeamStatistics() {
-		return teamStatistics;
+	public ResultAnalyzer(Stream<? extends MatchParser> resultList){
+		this.matchProcessor(resultList);
 	}
 	
-	public void setTeamStatistics(List<TeamStatistics> teamStatistics) {
-		this.teamStatistics = teamStatistics;
-	}
-	
-	private List<TeamStatistics> teamStatistics;
-	private Map<String, Integer> rankingTable;
-	
-	public ResultAnalyzer(Stream resultList){
-		this.resultList = resultList;
-		this.rankingTable = new HashMap<String, Integer>();
-	}
-	
-	public String getTeamNameWithMostWon() {
-		return mostWinner;
-	}
-	
-	Consumer<Optional<String>> sortTeams = result -> {
-		Integer value = rankingTable.get(result.get());
-		int sum = (value != null)?value.intValue():0;
-		rankingTable.put(result.get(), ++sum);
-	};
-	
-	private void setMostWinner(){
-		mostWinner =rankingTable
-				.entrySet()
-				.stream()
-				.max(Comparator.comparing(Map.Entry::getValue)).get().getKey();
-	}
-	
-	public void initAnalyzer(Stream<MatchParser> resultList) {
-		this.resultList = resultList;
-	}
-	
-	public void matchProcessor(Stream<? extends MatchParser> streamMatchs){
-		teamStatistics = new ArrayList<TeamStatistics>();
+	private void matchProcessor(Stream<? extends MatchParser> streamMatchs) {
+		teamStatisticsList = new ArrayList<TeamStatistics>();
 		streamMatchs.forEach(setGoals);
-		Optional<TeamStatistics> mostWinner = teamStatistics.stream().max(Comparator.comparing(TeamStatistics::getTotalWon));
-		Optional<TeamStatistics> mostLoser = teamStatistics.stream().max(Comparator.comparing(TeamStatistics::getTotalLost));
-		System.out.println("Most Winner: " + mostWinner.get());
-		System.out.println("Most Loser: " + mostLoser.get());
-		teamStatistics.stream().sorted(Comparator.comparing(TeamStatistics::getTotalWon).reversed()).forEach(System.out::println);
 		
+		mostWinnerTeam = teamStatisticsList.stream().max(Comparator.comparing(TeamStatistics::getTotalWon));
+		mostLoserTeam = teamStatisticsList.stream().max(Comparator.comparing(TeamStatistics::getTotalLost));
+		rankingOrderedList = teamStatisticsList.stream()
+											.sorted(Comparator.comparing(TeamStatistics::getTotalWon)
+											.reversed())
+											.collect(Collectors.toList());
 	}
-	
-	
 	
 	public Consumer<MatchParser> setGoals =(match -> {
 		int index = match.getScore().indexOf('-');
@@ -75,17 +44,17 @@ public class ResultAnalyzer {
 		TeamStatistics visitorTeamStat = new TeamStatistics();
 		visitorTeamStat.setTeam(visitorTeam);
 		
-		if(!teamStatistics.contains(localTeamStat)){
-			teamStatistics.add(localTeamStat);
+		if(!teamStatisticsList.contains(localTeamStat)){
+			teamStatisticsList.add(localTeamStat);
 		}else{
-			int indexLocal = teamStatistics.indexOf(localTeamStat);
-			localTeamStat = teamStatistics.get(indexLocal);
+			int indexLocal = teamStatisticsList.indexOf(localTeamStat);
+			localTeamStat = teamStatisticsList.get(indexLocal);
 		}
-		if(!teamStatistics.contains(visitorTeamStat)){
-			teamStatistics.add(visitorTeamStat);
+		if(!teamStatisticsList.contains(visitorTeamStat)){
+			teamStatisticsList.add(visitorTeamStat);
 		}else{
-			int indexVisitor = teamStatistics.indexOf(visitorTeamStat);
-			visitorTeamStat = teamStatistics.get(indexVisitor);
+			int indexVisitor = teamStatisticsList.indexOf(visitorTeamStat);
+			visitorTeamStat = teamStatisticsList.get(indexVisitor);
 		}
 		
 		if(localGoals == visitorGoals){
@@ -103,9 +72,38 @@ public class ResultAnalyzer {
 		
 	});
 	
-	public TeamStatistics getTeamStatistics(String teamName) {
-		TeamStatistics teamStat = new TeamStatistics();
-		teamStat.setTeam(new Team(teamName));
-		return teamStatistics.get(teamStatistics.indexOf(teamStat));
+	public Optional<TeamStatistics> getTeamStatistics(String teamName) {
+		TeamStatistics teamStat = new TeamStatistics(teamName);
+		int index = teamStatisticsList.indexOf(teamStat);
+		return index >= 0 ? Optional.ofNullable(teamStatisticsList.get(index)) : Optional.empty();
 	}
+	
+	public Optional<TeamStatistics> getMostWinnerTeam() {
+		return mostWinnerTeam;
+	}
+	
+	public void setMostWinnerTeam(Optional<TeamStatistics> mostWinnerTeam) {
+		this.mostWinnerTeam = mostWinnerTeam;
+	}
+	
+	public Optional<TeamStatistics> getMostLoserTeam() {
+		return mostLoserTeam;
+	}
+	
+	public void setMostLoserTeam(Optional<TeamStatistics> mostLoserTeam) {
+		this.mostLoserTeam = mostLoserTeam;
+	}
+	
+	public List<TeamStatistics> getRankingOrderedList() {
+		return rankingOrderedList;
+	}
+	
+	public void setRankingOrderedList(List<TeamStatistics> rankingOrderedList) {
+		this.rankingOrderedList = rankingOrderedList;
+	}
+	
+	public List<TeamStatistics> getTeamStatisticsList() {
+		return teamStatisticsList;
+	}
+	
 }

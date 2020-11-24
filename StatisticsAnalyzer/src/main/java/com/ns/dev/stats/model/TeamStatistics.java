@@ -1,7 +1,6 @@
 package com.ns.dev.stats.model;
 
 import com.ns.dev.Team;
-import com.ns.dev.utils.parser.MatchParser;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,17 +15,24 @@ public class TeamStatistics {
 	private int totalLost;
 	private int totalDrawn;
 	
+	public TeamStatistics() {
+	}
+	
+	public TeamStatistics(String teamName) {
+		this.setTeam(new Team(teamName));
+	}
+	
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
 		TeamStatistics that = (TeamStatistics) o;
-		return Objects.equals(team.getName(), that.team.getName());
+		return Objects.equals(team, that.team);
 	}
 	
 	@Override
 	public int hashCode() {
-		return Objects.hash(team.getName());
+		return Objects.hash(team);
 	}
 	
 	@Override
