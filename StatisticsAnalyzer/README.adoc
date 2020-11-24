@@ -10,28 +10,26 @@ Se requiere conocer por cada equipo, Cuantos partidos:
 
 No es requerido mostrar el total de goles anotados o recibidos, tal vez ser podría considerar como un feature improvement
 
-Cómo se va a almacenar el analisis por cada partido:
-Map<String >
 
 == Análisis de clases
-Match: DateTime, LocalTeam, VisitorTeam, VisitorGoals, LocalGoals
+MatchParserXML: date, local, visitor, score
 
 Player: userName, firstName, lastName, Team
 
 Team: Id, Nombre
 
-Team Statistics: Team, TotalGanados, TotalPerdidos y TotalEmpatados
+TeamStatistics: Team, TotalGanados, TotalPerdidos y TotalEmpatados
 
 // RankTable: List<TeamStatistics> or Map<int, TeamStatistics>
 
 Parser
-Lee cada linea, crea el Team
+Lee cada linea, crea un MatchParserXML
 
 StatsManager: Parser, List<TeamStatistics>
 
 Considerar a futuro llevar conteo de goles anotados y recibidos.
 
-MatchAnalyzer
+ResultAnalyzer: Recibe un Stream<? extends MatchParser> que utiliza para crear el listado de List<TeamStatistics> teamStatisticsList
 
 
 
